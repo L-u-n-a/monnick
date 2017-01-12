@@ -1,0 +1,15 @@
+.navbar {
+    text-align: center;
+}
+
+
+.navbar p {
+    display: inline;
+    padding: 5px;
+    top: 15px;
+    margin-right: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+}
