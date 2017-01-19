@@ -1,3 +1,7 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .navbar {
     text-align: center;
 }
@@ -7,9 +11,10 @@
     display: inline;
     padding: 5px;
     top: 15px;
-    margin-right: 5px;
+    margin-right: 15px;
     background-color: blue;
     color: white;
     border-radius: 5px;
     position: relative;
+    font-weight: 600;
 }
