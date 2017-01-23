@@ -67,24 +67,41 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-@media only screen and (max-device-width: 520px) {
-  /* line 9, ../sass/screen.scss */
+/* line 14, ../sass/screen.scss */
+.navbar {
+  font-size: 15px;
+}
+
+@media screen and (min-width: 480px) {
+  /* line 17, ../sass/screen.scss */
   .navbar {
     font-size: 2.3em;
   }
 }
-/* line 14, ../sass/screen.scss */
+@media screen and (min-width: 640px) {
+  /* line 20, ../sass/screen.scss */
+  .navbar {
+    font-size: 2.0em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 23, ../sass/screen.scss */
+  .navbar {
+    font-size: 1.8em;
+  }
+}
+/* line 27, ../sass/screen.scss */
 body {
   font-family: 'Open Sans', sans-serif;
   background-image: url("../../images/foto-gear-monnick.jpg");
 }
 
-/* line 19, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 .navbar {
   text-align: center;
 }
 
-/* line 23, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 .navbar p {
   display: inline;
   padding: 5px;
@@ -100,25 +117,25 @@ body {
   font-size: 1.0em;
 }
 
-/* line 38, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 .navbar p:hover {
   color: white;
   background-color: black;
   cursor: pointer;
 }
 
-/* line 44, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* line 49, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* line 53, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -128,12 +145,12 @@ body {
   margin-top: 20px;
 }
 
-/* line 62, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .center {
   background-color: white;
 }
 
-/* line 66, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 .dropdown ol {
   list-style: none;
   padding-left: 0px;
@@ -142,14 +159,14 @@ body {
   cursor: pointer;
 }
 
-/* line 74, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 .dropdown ol li {
   width: 180px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 80, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 .dropdown ol li:hover {
   color: white;
   background-color: black;
