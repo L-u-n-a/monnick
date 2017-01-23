@@ -114,9 +114,10 @@ body {
 /* line 29, ../sass/screen.scss */
 .navbar {
   text-align: center;
+  margin-bottom: 5em;
 }
 
-/* line 33, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 .navbar p {
   display: inline;
   padding: 5px;
@@ -132,25 +133,25 @@ body {
   font-size: 1.0em;
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 .navbar p:hover {
   color: white;
   background-color: black;
   cursor: pointer;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* line 59, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* line 63, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -160,12 +161,12 @@ body {
   margin-top: 20px;
 }
 
-/* line 72, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .center {
   background-color: white;
 }
 
-/* line 76, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 .dropdown ol {
   list-style: none;
   padding-left: 0px;
@@ -174,24 +175,23 @@ body {
   cursor: pointer;
 }
 
-/* line 84, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .dropdown ol li {
   width: 180px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .dropdown ol li:hover {
   color: white;
   background-color: black;
 }
 
-/* line 95, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 .logo {
   margin: auto;
   text-align: center;
-  margin-top: 2em;
   margin-bottom: 2em;
   font-family: "Source Code Pro", monospace;
 }
@@ -213,7 +213,7 @@ body {
 
 /* line 116, ../sass/screen.scss */
 .divide {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 /* line 120, ../sass/screen.scss */
