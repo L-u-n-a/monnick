@@ -69,7 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 @media only screen and (max-device-width: 520px) {
   /* line 9, ../sass/screen.scss */
-  .navbar p {
+  .navbar {
     font-size: 2.3em;
   }
 }
