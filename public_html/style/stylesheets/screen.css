@@ -221,3 +221,15 @@ body {
   display: block;
   margin: auto;
 }
+
+/* line 125, ../sass/screen.scss */
+.break {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+/* line 130, ../sass/screen.scss */
+.break img {
+  display: block;
+  margin: auto;
+}
