@@ -99,19 +99,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .navbar {
     font-size: 1.0em;
   }
+
+  /* line 20, ../sass/screen.scss */
+  .logo {
+    font-size: 2em;
+  }
 }
-/* line 23, ../sass/screen.scss */
+/* line 24, ../sass/screen.scss */
 body {
   font-family: 'Open Sans', sans-serif;
   background-image: url("../../images/foto-gear-monnick.jpg");
 }
 
-/* line 28, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 .navbar {
   text-align: center;
 }
 
-/* line 32, ../sass/screen.scss */
+/* line 33, ../sass/screen.scss */
 .navbar p {
   display: inline;
   padding: 5px;
@@ -127,25 +132,25 @@ body {
   font-size: 1.0em;
 }
 
-/* line 47, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 .navbar p:hover {
   color: white;
   background-color: black;
   cursor: pointer;
 }
 
-/* line 53, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* line 62, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -155,12 +160,12 @@ body {
   margin-top: 20px;
 }
 
-/* line 71, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 .center {
   background-color: white;
 }
 
-/* line 75, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 .dropdown ol {
   list-style: none;
   padding-left: 0px;
@@ -169,27 +174,26 @@ body {
   cursor: pointer;
 }
 
-/* line 83, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 .dropdown ol li {
   width: 180px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 89, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 .dropdown ol li:hover {
   color: white;
   background-color: black;
 }
 
-/* line 94, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 .logo {
   margin: auto;
   text-align: center;
   margin-top: 2em;
   margin-bottom: 2em;
   font-family: "Source Code Pro", monospace;
-  font-size: 2em;
 }
 
 /* line 103, ../sass/screen.scss */
