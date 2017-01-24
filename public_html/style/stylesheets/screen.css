@@ -101,20 +101,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .navbar {
     font-size: 1.0em;
   }
+
+  /* line 20, ../sass/screen.scss */
+  .logo {
+    height: 80px;
+    width: 200px;
+  }
 }
-/* line 23, ../sass/screen.scss */
+/* line 24, ../sass/screen.scss */
 body {
   font-family: 'Open Sans', sans-serif;
   background-image: url("../../images/foto-gear-monnick.jpg");
 }
 
-/* line 28, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 .navbar {
   text-align: center;
   margin-bottom: 5em;
 }
 
-/* line 33, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 .navbar p {
   display: inline;
   padding: 5px;
@@ -130,25 +136,25 @@ body {
   font-size: 1.0em;
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 .navbar p:hover {
   color: white;
   background-color: black;
   cursor: pointer;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* line 59, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* line 63, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -158,12 +164,12 @@ body {
   margin-top: 20px;
 }
 
-/* line 72, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .center {
   background-color: white;
 }
 
-/* line 76, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 .dropdown ol {
   list-style: none;
   padding-left: 0px;
@@ -172,20 +178,20 @@ body {
   cursor: pointer;
 }
 
-/* line 84, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .dropdown ol li {
   width: 180px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .dropdown ol li:hover {
   color: white;
   background-color: black;
 }
 
-/* line 95, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 .logo {
   display: block;
   margin: auto;
@@ -193,7 +199,7 @@ body {
   font-family: "Source Code Pro", monospace;
 }
 
-/* line 102, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 .track h4 {
   text-align: left;
   font-size: 1.3em;
@@ -203,29 +209,29 @@ body {
   font-family: inherit;
 }
 
-/* line 111, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 .track iframe {
   margin-bottom: 1.5em;
 }
 
-/* line 115, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 .divide {
   margin-bottom: 2em;
 }
 
-/* line 119, ../sass/screen.scss */
+/* line 120, ../sass/screen.scss */
 .divide img {
   display: block;
   margin: auto;
 }
 
-/* line 124, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 .break {
   margin-top: 2em;
   margin-bottom: 2em;
 }
 
-/* line 129, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 .break img {
   display: block;
   margin: auto;
