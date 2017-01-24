@@ -93,63 +93,75 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   body {
     background-image: none;
   }
+
+  /* line 15, ../sass/screen.scss */
+  .break {
+    margin-top: 4em;
+    margin-bottom: 4em;
+  }
 }
 @media screen and (min-width: 640px) {
-  /* line 17, ../sass/screen.scss */
+  /* line 18, ../sass/screen.scss */
   .navbar {
     font-size: 2.5em;
   }
 
-  /* line 18, ../sass/screen.scss */
+  /* line 19, ../sass/screen.scss */
   .logo {
     height: 130px;
     width: 400px;
   }
 
-  /* line 19, ../sass/screen.scss */
+  /* line 20, ../sass/screen.scss */
   h4 {
     font-size: 3em;
   }
 
-  /* line 20, ../sass/screen.scss */
+  /* line 21, ../sass/screen.scss */
   body {
     background-image: none;
   }
+
+  /* line 22, ../sass/screen.scss */
+  .break {
+    margin-top: 4em;
+    margin-bottom: 4em;
+  }
 }
 @media screen and (min-width: 1024px) {
-  /* line 23, ../sass/screen.scss */
+  /* line 25, ../sass/screen.scss */
   .navbar {
     font-size: 1.0em;
   }
 
-  /* line 24, ../sass/screen.scss */
+  /* line 26, ../sass/screen.scss */
   .logo {
     height: 130px;
     width: 350px;
   }
 
-  /* line 25, ../sass/screen.scss */
+  /* line 27, ../sass/screen.scss */
   h4 {
     font-size: 1.5em;
   }
 
-  /* line 26, ../sass/screen.scss */
+  /* line 28, ../sass/screen.scss */
   body {
     background-image: url("../../images/foto-gear-monnick2.jpg");
   }
 }
-/* line 30, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 .navbar {
   text-align: center;
   margin-bottom: 5em;
 }
 
-/* line 39, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 .navbar p {
   display: inline;
   padding: 5px;
@@ -165,19 +177,19 @@ body {
   font-size: 1.0em;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 .navbar p:hover {
   color: white;
   background-color: black;
   cursor: pointer;
 }
 
-/* line 60, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .dropdown {
   position: relative;
   display: inline-block;
 }
-/* line 64, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 .dropdown ol {
   list-style: none;
   padding-left: 0px;
@@ -185,24 +197,24 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
-/* line 71, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .dropdown ol li {
   width: 180px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 76, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 .dropdown ol li:hover {
   color: white;
   background-color: black;
 }
 
-/* line 83, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* line 87, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -212,12 +224,12 @@ body {
   margin-top: 20px;
 }
 
-/* line 96, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .center {
   background-color: white;
 }
 
-/* line 100, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .logo {
   display: block;
   margin: auto;
@@ -225,7 +237,7 @@ body {
   font-family: "Source Code Pro", monospace;
 }
 
-/* line 107, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 .track h4 {
   text-align: left;
   margin-top: 0.5em;
@@ -234,33 +246,33 @@ body {
   font-family: inherit;
 }
 
-/* line 115, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .track iframe {
   margin-bottom: 1.5em;
 }
 
-/* line 119, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 .divide {
   margin-bottom: 2em;
 }
-/* line 122, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 .divide img {
   display: block;
   margin: auto;
 }
 
-/* line 128, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 .break {
   margin-top: 2em;
   margin-bottom: 2em;
 }
-/* line 132, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 .break img {
   display: block;
   margin: auto;
 }
 
-/* line 138, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 .footer {
   text-align: center;
   margin-top: 2em;
@@ -268,7 +280,7 @@ body {
   font-family: monospace;
   font-size: 1.1em;
 }
-/* line 145, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 .footer hr {
   width: 50%;
   color: red;
