@@ -80,8 +80,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
   /* line 12, ../sass/screen.scss */
   .logo {
-    height: 20px;
-    width: 20px;
+    height: 60px;
+    width: 150px;
   }
 }
 @media screen and (min-width: 640px) {
@@ -92,8 +92,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
   /* line 16, ../sass/screen.scss */
   .logo {
-    height: 20px;
-    width: 20px;
+    height: 80px;
+    width: 200px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -104,8 +104,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
   /* line 20, ../sass/screen.scss */
   .logo {
-    height: 80px;
-    width: 200px;
+    height: 150px;
+    width: 300px;
   }
 }
 /* line 24, ../sass/screen.scss */
