@@ -187,15 +187,13 @@ body {
 
 /* line 95, ../sass/screen.scss */
 .logo {
-  height: 100px;
-  width: 350px;
   display: block;
   margin: auto;
   margin-bottom: 2em;
   font-family: "Source Code Pro", monospace;
 }
 
-/* line 104, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .track h4 {
   text-align: left;
   font-size: 1.3em;
@@ -205,29 +203,29 @@ body {
   font-family: inherit;
 }
 
-/* line 113, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 .track iframe {
   margin-bottom: 1.5em;
 }
 
-/* line 117, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 .divide {
   margin-bottom: 2em;
 }
 
-/* line 121, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 .divide img {
   display: block;
   margin: auto;
 }
 
-/* line 126, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 .break {
   margin-top: 2em;
   margin-bottom: 2em;
 }
 
-/* line 131, ../sass/screen.scss */
+/* line 129, ../sass/screen.scss */
 .break img {
   display: block;
   margin: auto;
