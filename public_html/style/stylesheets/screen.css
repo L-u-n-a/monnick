@@ -75,7 +75,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media screen and (max-width: 480px) {
   /* line 11, ../sass/screen.scss */
   .navbar {
-    font-size: 1em;
+    font-size: 0.5em;
   }
 
   /* line 12, ../sass/screen.scss */
