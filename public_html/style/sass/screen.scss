@@ -7,6 +7,15 @@
 
 .navbar { font-size: 15px; }
 
+@media screen and (max-width: 480px) {
+  .navbar { font-size: 2.5em; }
+  .logo { height: 100px; width: 250px; }
+  .divide { margin-top: 2em; margin-bottom: 3em; }
+  h4 { font-size: 3em; }
+  body { background-image: none; }
+  .break { margin-top: 5em; margin-bottom: 5em; }
+}
+
 @media screen and (min-width: 480px) {
   .navbar { font-size: 2.5em; }
   .logo { height: 100px; width: 250px; }
