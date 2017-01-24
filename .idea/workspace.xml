@@ -32,8 +32,8 @@
       <file leaf-file-name="screen.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_html/style/stylesheets/screen.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="996">
-              <caret line="272" column="35" lean-forward="false" selection-start-line="272" selection-start-column="35" selection-end-line="272" selection-end-column="35" />
+            <state relative-caret-position="1086">
+              <caret line="277" column="35" lean-forward="false" selection-start-line="277" selection-start-column="35" selection-end-line="277" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -43,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/public_html/style/sass/screen.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -250,12 +250,12 @@
       <workItem from="1485205454760" duration="4090000" />
       <workItem from="1485252527892" duration="634000" />
       <workItem from="1485254152175" duration="11024000" />
-      <workItem from="1485270945125" duration="2035000" />
+      <workItem from="1485270945125" duration="2096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30411000" />
+    <option name="totallyTimeSpent" value="30472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="1" />
@@ -520,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/style/stylesheets/screen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="996">
-          <caret line="272" column="35" lean-forward="false" selection-start-line="272" selection-start-column="35" selection-end-line="272" selection-end-column="35" />
+        <state relative-caret-position="1086">
+          <caret line="277" column="35" lean-forward="false" selection-start-line="277" selection-start-column="35" selection-end-line="277" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -529,7 +529,7 @@
     <entry file="file://$PROJECT_DIR$/public_html/style/sass/screen.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding />
         </state>
       </provider>
