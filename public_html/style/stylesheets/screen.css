@@ -92,7 +92,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
   /* line 16, ../sass/screen.scss */
   .logo {
-    height: 150px;
+    height: 130px;
     width: 400px;
   }
 }
@@ -104,7 +104,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
   /* line 20, ../sass/screen.scss */
   .logo {
-    height: 150px;
+    height: 130px;
     width: 350px;
   }
 }
@@ -148,13 +148,32 @@ body {
   position: relative;
   display: inline-block;
 }
+/* line 59, ../sass/screen.scss */
+.dropdown ol {
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 0px;
+  font-weight: 600;
+  cursor: pointer;
+}
+/* line 66, ../sass/screen.scss */
+.dropdown ol li {
+  width: 180px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 71, ../sass/screen.scss */
+.dropdown ol li:hover {
+  color: white;
+  background-color: black;
+}
 
-/* line 60, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* line 64, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -164,34 +183,12 @@ body {
   margin-top: 20px;
 }
 
-/* line 73, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .center {
   background-color: white;
 }
 
-/* line 77, ../sass/screen.scss */
-.dropdown ol {
-  list-style: none;
-  padding-left: 0px;
-  margin-left: 0px;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-/* line 85, ../sass/screen.scss */
-.dropdown ol li {
-  width: 180px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-/* line 91, ../sass/screen.scss */
-.dropdown ol li:hover {
-  color: white;
-  background-color: black;
-}
-
-/* line 96, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 .logo {
   display: block;
   margin: auto;
@@ -199,7 +196,7 @@ body {
   font-family: "Source Code Pro", monospace;
 }
 
-/* line 103, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .track h4 {
   text-align: left;
   font-size: 1.3em;
@@ -209,30 +206,43 @@ body {
   font-family: inherit;
 }
 
-/* line 112, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 .track iframe {
   margin-bottom: 1.5em;
 }
 
-/* line 116, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 .divide {
   margin-bottom: 2em;
 }
-
-/* line 120, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 .divide img {
   display: block;
   margin: auto;
 }
 
-/* line 125, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 .break {
   margin-top: 2em;
   margin-bottom: 2em;
 }
-
-/* line 130, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 .break img {
   display: block;
   margin: auto;
+}
+
+/* line 134, ../sass/screen.scss */
+.footer {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-family: monospace;
+  font-size: 1.1em;
+}
+/* line 141, ../sass/screen.scss */
+.footer hr {
+  width: 50%;
+  color: red;
+  border-color: darkgray;
 }

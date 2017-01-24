@@ -13,11 +13,11 @@
 }
 @media screen and (min-width: 640px) {
   .navbar { font-size: 2.0em; }
-  .logo { height: 150px; width: 400px; }
+  .logo { height: 130px; width: 400px; }
 }
 @media screen and (min-width: 1024px) {
   .navbar { font-size: 1.0em; }
-  .logo { height: 150px; width: 350px; }
+  .logo { height: 130px; width: 350px; }
 }
 
 
@@ -55,6 +55,24 @@ body {
 .dropdown {
   position: relative;
   display: inline-block;
+
+  ol {
+    list-style: none;
+    padding-left: 0px;
+    margin-left: 0px;
+    font-weight: 600;
+    cursor: pointer;
+
+    li {
+      width: 180px;
+      padding-top: 10px;
+      padding-bottom:10px;
+    }
+    li:hover {
+      color:white;
+      background-color: black;
+    }
+  }
 }
 
 .dropdown:hover .dropdown-content {
@@ -72,25 +90,6 @@ body {
 
 .center {
   background-color: white;
-}
-
-.dropdown ol {
-  list-style: none;
-  padding-left: 0px;
-  margin-left: 0px;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.dropdown ol li {
-  width: 180px;
-  padding-top: 10px;
-  padding-bottom:10px;
-}
-
-.dropdown ol li:hover{
-  color:white;
-  background-color: black;
 }
 
 .logo {
@@ -115,19 +114,33 @@ body {
 
 .divide {
   margin-bottom: 2em;
-}
 
-.divide img {
-  display: block;
-  margin: auto;
+  img {
+    display: block;
+    margin: auto;
+  }
 }
 
 .break {
   margin-top: 2em;
   margin-bottom: 2em;
+
+  img {
+    display: block;
+    margin: auto;
+  }
 }
 
-.break img {
-  display: block;
-  margin: auto;
+.footer {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-family: monospace;
+  font-size: 1.1em;
+
+  hr {
+    width: 50%;
+    color: red;
+    border-color: darkgray;
+  }
 }
