@@ -191,6 +191,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     background-image: url("../../images/foto-gear-monnick2.jpg");
   }
 }
+/* line 42, ../sass/screen.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 /* line 46, ../sass/screen.scss */
 .navbar {
   text-align: center;
@@ -270,6 +275,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
   margin: auto;
   margin-bottom: 2em;
+  font-family: "Source Code Pro", monospace;
 }
 
 /* line 119, ../sass/screen.scss */
