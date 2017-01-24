@@ -1,7 +1,9 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: jan
- * Date: 1/24/17
- * Time: 2:23 PM
- */
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+
+    <title>Index</title>
+
+</head>
+<body>

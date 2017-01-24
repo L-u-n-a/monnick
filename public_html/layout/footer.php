@@ -1,7 +1,7 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: jan
- * Date: 1/24/17
- * Time: 2:24 PM
- */
+<!-------------------Footer------------------->
+<div class="clearfix">
+    <div class="col-xs-12 col-sm-12 col-md-12 footer">
+        <hr />
+        <p>Monnick.org</p>
+    </div>
+</div>
