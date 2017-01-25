@@ -102,107 +102,107 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 19, ../sass/screen.scss */
+  /* line 18, ../sass/screen.scss */
   .navbar {
     font-size: 2.5em;
   }
 
-  /* line 20, ../sass/screen.scss */
+  /* line 19, ../sass/screen.scss */
   .logo {
-    height: 100px;
+    height: 90px;
     width: 250px;
   }
 
-  /* line 21, ../sass/screen.scss */
+  /* line 20, ../sass/screen.scss */
   .divide {
     margin-top: 2em;
     margin-bottom: 3em;
   }
 
-  /* line 22, ../sass/screen.scss */
+  /* line 21, ../sass/screen.scss */
   h4 {
     font-size: 2em;
   }
 
-  /* line 23, ../sass/screen.scss */
+  /* line 22, ../sass/screen.scss */
   body {
     background-image: none;
   }
 
-  /* line 24, ../sass/screen.scss */
+  /* line 23, ../sass/screen.scss */
   .break {
     margin-top: 5em;
     margin-bottom: 5em;
   }
 }
 @media screen and (min-width: 640px) {
-  /* line 27, ../sass/screen.scss */
+  /* line 26, ../sass/screen.scss */
   .navbar {
     font-size: 2.5em;
   }
 
-  /* line 28, ../sass/screen.scss */
+  /* line 27, ../sass/screen.scss */
   .logo {
-    height: 130px;
+    height: 120px;
     width: 400px;
   }
 
-  /* line 29, ../sass/screen.scss */
+  /* line 28, ../sass/screen.scss */
   .divide {
     margin-top: 2em;
     margin-bottom: 3em;
   }
 
-  /* line 30, ../sass/screen.scss */
+  /* line 29, ../sass/screen.scss */
   h4 {
     font-size: 3em;
   }
 
-  /* line 31, ../sass/screen.scss */
+  /* line 30, ../sass/screen.scss */
   body {
     background-image: none;
   }
 
-  /* line 32, ../sass/screen.scss */
+  /* line 31, ../sass/screen.scss */
   .break {
     margin-top: 5em;
     margin-bottom: 5em;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 35, ../sass/screen.scss */
+  /* line 34, ../sass/screen.scss */
   .navbar {
     font-size: 1.0em;
   }
 
-  /* line 36, ../sass/screen.scss */
+  /* line 35, ../sass/screen.scss */
   .logo {
     height: 110px;
     width: 350px;
   }
 
-  /* line 37, ../sass/screen.scss */
+  /* line 36, ../sass/screen.scss */
   h4 {
     font-size: 1.5em;
   }
 
-  /* line 38, ../sass/screen.scss */
+  /* line 37, ../sass/screen.scss */
   body {
     background-image: url("../../images/foto-gear-monnick2.jpg");
   }
 }
-/* line 42, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 46, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 .navbar {
   text-align: center;
   margin-bottom: 5em;
 }
 
-/* line 51, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 .navbar p {
   display: inline;
   padding: 5px;
@@ -218,19 +218,19 @@ body {
   font-size: 1.0em;
 }
 
-/* line 66, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 .navbar p:hover {
   color: white;
   background-color: black;
   cursor: pointer;
 }
 
-/* line 72, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 .dropdown {
   position: relative;
   display: inline-block;
 }
-/* line 76, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .dropdown ol {
   list-style: none;
   padding-left: 0px;
@@ -238,24 +238,24 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
-/* line 83, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .dropdown ol li {
   width: 180px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 88, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 .dropdown ol li:hover {
   color: white;
   background-color: black;
 }
 
-/* line 95, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* line 99, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -265,12 +265,12 @@ body {
   margin-top: 20px;
 }
 
-/* line 108, ../sass/screen.scss */
+/* line 107, ../sass/screen.scss */
 .center {
   background-color: white;
 }
 
-/* line 112, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 .logo {
   display: block;
   margin: auto;
@@ -278,7 +278,7 @@ body {
   font-family: "Source Code Pro", monospace;
 }
 
-/* line 119, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 .track h4 {
   text-align: left;
   margin-top: 0.5em;
@@ -287,24 +287,24 @@ body {
   font-family: inherit;
 }
 
-/* line 127, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 .track iframe {
   margin-bottom: 1.5em;
 }
 
-/* line 133, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 .divide img {
   display: block;
   margin: auto;
 }
 
-/* line 141, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 .break img {
   display: block;
   margin: auto;
 }
 
-/* line 147, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 .footer {
   text-align: center;
   margin-top: 2em;
@@ -312,7 +312,7 @@ body {
   font-family: monospace;
   font-size: 1.1em;
 }
-/* line 154, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 .footer hr {
   width: 50%;
   color: red;
