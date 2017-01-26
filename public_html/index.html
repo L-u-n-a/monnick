@@ -5,6 +5,8 @@
 
 	<title>Index</title>
 
+	<script type="text/javascript" src="script/script.js"></script>
+
 </head>
 <body>
 	<div class="clearfix">
@@ -21,21 +23,31 @@
 				<nav class="navbar">
 					<p>Home</p>
 
-					<div class="dropdown">
-						<p>Music</p>
-						<div class="dropdown-content">
-							<ol>
-								<li>Tracks</li>
-								<li>Sets</li>
-							</ol>
-						</div>
-					</div>
+					<!--<div class="dropdown">-->
+						<p onclick="toggle_visibility('choices');">Music</p>
+					<!--<div class="dropdown-content">
+                        <ol>
+                            <li>Tracks</li>
+                            <li>Sets</li>
+                        </ol>
+                    </div>
+                </div>-->
 
-					<p>Contact</p>
-				</nav>
-			</div>
+                <p>Contact</p>
+            </nav>
 
-			<!-------------------Logo------------------->
+        </div>
+
+        <div id="choices" class="choices clearfix" style="display: none;">
+			<table width="100%; text-align: center;">
+				<tr>
+					<td class="seperate">Tracks</td>
+					<td>Sets</td>
+				</tr>
+			</table>
+        </div>
+
+        <!-------------------Logo------------------->
 			<div class="clearfix">
 				<div class="col-xs-12 col-sm-12 col-md-12">
 					<img class="logo" src="images/monnick-logo.jpg">
