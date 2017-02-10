@@ -197,12 +197,21 @@ body {
 }
 
 /* line 45, ../sass/screen.scss */
+.welcome p {
+  margin: 1em 1em 1em 1em;
+  padding: 0.3em 0.3em 0.3em 0.3em;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+}
+
+/* line 53, ../sass/screen.scss */
 .navbar {
   text-align: center;
   margin-bottom: 2em;
 }
 
-/* line 50, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 .navbar p {
   display: inline;
   padding: 5px;
@@ -218,19 +227,19 @@ body {
   font-size: 1.0em;
 }
 
-/* line 65, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .navbar p:hover {
   color: white;
   background-color: black;
   cursor: pointer;
 }
 
-/* line 71, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 .dropdown {
   position: relative;
   display: inline-block;
 }
-/* line 75, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 .dropdown ol {
   list-style: none;
   padding-left: 0px;
@@ -238,24 +247,24 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
-/* line 82, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 .dropdown ol li {
   width: 180px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 87, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 .dropdown ol li:hover {
   color: white;
   background-color: black;
 }
 
-/* line 94, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* line 98, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -265,17 +274,17 @@ body {
   margin-top: 25px;
 }
 
-/* line 107, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 .choices {
   display: inline;
   text-align: center;
 }
-/* line 111, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 .choices table {
   width: 100%;
   cursor: pointer;
 }
-/* line 115, ../sass/screen.scss */
+/* line 123, ../sass/screen.scss */
 .choices table td {
   text-align: center;
   font-weight: 600;
@@ -283,23 +292,23 @@ body {
   height: 2em;
   border-bottom: 2px solid black;
 }
-/* line 123, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 .choices table td:hover {
   color: white;
   background-color: black;
 }
 
-/* line 130, ../sass/screen.scss */
+/* line 138, ../sass/screen.scss */
 .seperate {
   border-right: 2px solid black;
 }
 
-/* line 134, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 .center {
   background-color: white;
 }
 
-/* line 138, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 .logo {
   display: block;
   margin: auto;
@@ -308,7 +317,7 @@ body {
   font-family: "Source Code Pro", monospace;
 }
 
-/* line 146, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 .track h4 {
   text-align: left;
   margin-top: 0.5em;
@@ -317,24 +326,24 @@ body {
   font-family: inherit;
 }
 
-/* line 154, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 .track iframe {
   margin-bottom: 1.5em;
 }
 
-/* line 160, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 .divide img {
   display: block;
   margin: auto;
 }
 
-/* line 168, ../sass/screen.scss */
+/* line 176, ../sass/screen.scss */
 .break img {
   display: block;
   margin: auto;
 }
 
-/* line 174, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 .footer {
   text-align: center;
   margin-top: 2em;
@@ -342,7 +351,7 @@ body {
   font-family: monospace;
   font-size: 1.1em;
 }
-/* line 181, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 .footer hr {
   width: 50%;
   color: red;

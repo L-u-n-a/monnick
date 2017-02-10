@@ -1,8 +1,23 @@
+<?php
+    session_start();
+?>
 
 <!-------------------Navigation Bar------------------->
 <div class="clearfix">
+
+    <?php
+
+    if(isset($_SESSION['id'])) {
+
+        echo "<div class='welcome'>";
+        $welcome = "Hello " . $_SESSION['username'];
+        echo "<p>$welcome - <a href='logout.php'>Logout</a> - <a href='contact.php'>Edit Contact</a></p>";
+        echo "</div>";
+    }
+    ?>
+
     <nav class="navbar">
-        <p>Home</p>
+        <p><a href="../index.php">Home</a></p>
 
         <div class="dropdown">
             <p>Music</p>
@@ -14,7 +29,7 @@
             </div>
         </div>
 
-        <p>Contact</p>
+        <p><a href="../contact.php">Contact</a></p>
     </nav>
 </div>
 
