@@ -23,14 +23,16 @@
             <p>Music</p>
             <div class="dropdown-content">
                 <ol>
-                    <li>Tracks</li>
-                    <li>Sets</li>
+                    <li><a href="tracks.php">Tracks</a></li>
+                    <li><a href="sets.php">Sets</a></li>
                 </ol>
             </div>
         </div>
 
         <p><a href="../contact.php">Contact</a></p>
     </nav>
+    <br />
+    <br />
 </div>
 
 <!-------------------Logo------------------->

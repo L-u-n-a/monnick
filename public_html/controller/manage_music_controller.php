@@ -2,15 +2,8 @@
 
 include_once 'PDO.php';
 
-  $name       = $_POST['name'];
-  $type       = $_POST['type'];
-  $embed_link = $_POST['embed_link'];
-
-  addMusic($name, $type, $embed_link);
-
   function addMusic($name, $type, $embed_link) {
     $query = "INSERT INTO music(name, type, embed_link) VALUES (:name, :type, :embed_link);";
-
     $statement = connect()->prepare($query);
 
     try {
@@ -18,7 +11,39 @@ include_once 'PDO.php';
         header("Location: ../manage_music.php");
     }
     catch(Exception $e) {
-        echo "manage_music_controller.php error. Error message + " . $e->getMessage();
+        echo "manage_music_controller.php error in ---> addMusic(). Error message + " . $e->getMessage();
+    }
+  }
+
+
+  function getAllTracks() {
+    $query = "SELECT * FROM music WHERE type = 'track';";
+    $statement = connect()->prepare($query);
+
+    try {
+      $statement->execute();
+      $tracks = $statement->fetchAll();
+
+      return $tracks;
+    }
+    catch(Exception $e) {
+      echo "manage_music_controller.php error in ---> getAllTracks(). Error message + " . $e->getMessage();
+    }
+  }
+
+
+  function getAllSets() {
+    $query = "SELECT * FROM music WHERE type = 'set';";
+    $statement = connect()->prepare($query);
+
+    try {
+      $statement->execute();
+      $sets = $statement->fetchAll(PDO::FETCH_CLASS);
+
+      return $sets;
+    }
+    catch(Exception $e) {
+      echo "manage_music_controller.php error in ---> getAllTracks(). Error message + " . $e->getMessage();
     }
   }
 
