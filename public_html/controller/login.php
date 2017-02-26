@@ -1,10 +1,12 @@
 <?php
 
-function attemptLogin($handler, $username, $password) {
+require_once 'PDO.php';
+
+function attemptLogin($username, $password) {
     //create query
     $query = "SELECT id, username, password FROM user WHERE username = :username;";
 
-    $statement = $handler->prepare($query);
+    $statement = connect()->prepare($query);
 
     //Encrypt password
     //$hashedPassword = password_hash($password, PASSWORD_DEFAULT);

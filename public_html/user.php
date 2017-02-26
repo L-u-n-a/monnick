@@ -1,6 +1,5 @@
 <?php
 
-include_once 'controller/PDO.php';
 include_once 'controller/login.php';
 
 include_once "layout/header.php";
@@ -27,7 +26,7 @@ if(isset($_POST['login'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    attemptLogin($handler, $username, $password);
+    attemptLogin($username, $password);
 }
 ?>
 
@@ -40,4 +39,3 @@ include_once "layout/right.php";
 include_once "layout/styles.php";
 
 ?>
-
