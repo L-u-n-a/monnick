@@ -16,13 +16,29 @@ include_once 'PDO.php';
   }
 
 
+  function getAllMusic() {
+    $query = "SELECT * FROM music;";
+    $statement = connect()->prepare($query);
+
+    try {
+      $statement->execute();
+      $music = $statement->fetchAll(PDO::FETCH_CLASS);
+
+      return $music;
+    }
+    catch(Exception $e) {
+      echo "manage_music_controller.php error in ---> getAllMusic(). Error message + " . $e->getMessage();
+    }
+  }
+
+
   function getAllTracks() {
     $query = "SELECT * FROM music WHERE type = 'track';";
     $statement = connect()->prepare($query);
 
     try {
       $statement->execute();
-      $tracks = $statement->fetchAll();
+      $tracks = $statement->fetchAll(PDO::FETCH_CLASS);
 
       return $tracks;
     }
@@ -43,7 +59,7 @@ include_once 'PDO.php';
       return $sets;
     }
     catch(Exception $e) {
-      echo "manage_music_controller.php error in ---> getAllTracks(). Error message + " . $e->getMessage();
+      echo "manage_music_controller.php error in ---> getAllSets(). Error message + " . $e->getMessage();
     }
   }
 
