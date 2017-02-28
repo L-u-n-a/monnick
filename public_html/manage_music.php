@@ -76,7 +76,7 @@ function test_input($data) {
             <button class="btn btn-main btn-default" type="submit" name="submit" value="submit">Add Track</button>
           </form>
         </div>
-
+        
         <div class="col-xs-3 col-sm-3 col-md-3 track">
           <!--Reserved-->
         </div>
