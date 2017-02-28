@@ -10,7 +10,7 @@ include_once "layout/navbar.php";
 
 ?>
 
-<!-------------------Tracks------------------->
+<!-------------------Display Contact Information------------------->
 <div class="clearfix">
     <div class="col-xs-12 col-sm-12 col-md-12 track">
         <h1 style="font-size: 2.2em; text-align: center; line-height: 2em;">About</h1><br />
