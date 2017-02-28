@@ -8,6 +8,10 @@ include_once "layout/left.php";
 
 include_once "layout/navbar.php";
 
+if(!isset($_SESSION['id'])) {
+    header('user.php');
+}
+
 ?>
 
 <?php
