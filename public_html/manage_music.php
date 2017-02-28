@@ -1,5 +1,9 @@
 <?php
 
+if(!isset($_SESSION['id'])) {
+    header("Location: user.php");
+}
+
 include_once 'controller/manage_music_controller.php';
 
 include_once "layout/header.php";
@@ -7,10 +11,6 @@ include_once "layout/header.php";
 include_once "layout/left.php";
 
 include_once "layout/navbar.php";
-
-if(!isset($_SESSION['id'])) {
-    header('user.php');
-}
 
 ?>
 
