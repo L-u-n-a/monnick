@@ -11,7 +11,7 @@
 
         echo "<div class='welcome'>";
         $welcome = "Hello " . $_SESSION['username'];
-        echo "<p>$welcome - <a href='logout.php'>Logout</a> - <a href='manage_contact.php'>Edit Contact</a> - <a href='manage_music.php'>Manage music</a></p>";
+        echo "<p class='admin-bar'>$welcome - <a href='manage_music.php'>Manage music</a> - <a href='manage_contact.php'>Edit Contact</a> - <a href='logout.php'>Logout</a></p>";
         echo "</div>";
     }
     ?>
