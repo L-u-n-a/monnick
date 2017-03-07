@@ -24,7 +24,6 @@ $text = "";
 if($_SERVER["REQUEST_METHOD"] == "POST") {
   if(empty($_POST['text'])) {
     $nameErr = "Text is required";
-    $allTrue = false;
   } else {
    // Using nl2br will make sure the text keeps the added line brakes.
    $text = nl2br(htmlentities(test_input($_POST['text']), ENT_QUOTES, 'UTF-8'));
