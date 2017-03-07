@@ -50,13 +50,8 @@ function test_input($data) {
 
       <!--Manage Contact-->
       <div class="col-xs-8 col-sm-8 col-md-8 track">
-
-        <?php
-          $text = getContactText();
-        ?>
-
         <form action="manage_contact.php" method="post">
-          <textarea name="text" rows="15" cols="60"><?php echo strip_tags($text->text); ?></textarea>
+          <textarea name="text" rows="15" cols="60"><?php echo strip_tags(getContactText()->text); ?></textarea>
           <button class="btn btn-default">Save</button>
         </form>
       </div>
