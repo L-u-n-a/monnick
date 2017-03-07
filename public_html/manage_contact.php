@@ -26,7 +26,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $nameErr = "Text is required";
     $allTrue = false;
   } else {
-   $text = test_input($_POST['text']);
+   // Using nl2br will make sure the text keeps the added line brakes.
+   $text = nl2br(htmlentities(test_input($_POST['text']), ENT_QUOTES, 'UTF-8'));
    updateContactText($text);
   }
 }
@@ -56,7 +57,7 @@ function test_input($data) {
         ?>
 
         <form action="manage_contact.php" method="post">
-          <textarea name="text" rows="15" cols="60"><?php echo $text->text; ?></textarea>
+          <textarea name="text" rows="15" cols="60"><?php echo strip_tags($text->text); ?></textarea>
           <button class="btn btn-default">Save</button>
         </form>
       </div>
