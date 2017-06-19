@@ -19,6 +19,8 @@ include_once "layout/navbar.php";
           <?php echo getContactText()->text; ?>
 
         </p>
+        <p>My <a href="https://facebook/monnickofficial">Facebook</a></p>
+        <p>My <a href="https://soundcloud.com/monnick">Soundcloud</a></p>
     </div>
 </div>
 
