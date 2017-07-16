@@ -17,8 +17,15 @@ include_once "layout/navbar.php";
         $music = getAllMusic();
 
         foreach($music as $value) {
-          echo "<h4>" . $value->name . "</h4>";
-          echo $value->embed_link;
+          echo
+          "<div class='track-background' style='background-image: url(images/" . $value->embed_link . ".jpg); background-repeat: no-repeat; background-position: right;'>
+            <div class='col-xs-12 col-sm-12 col-md-5'>
+              <h4>" . $value->name . "</h4>
+            </div>
+            <div class='audio-player'>
+              <paper-audio-player src='../audio_files/" . $value->name . ".mp3' title=' " . $value->name . " 'color='#000000' preload='none'></paper-audio-player>
+            </div>
+          </div>";
         }
 
       ?>

@@ -8,4 +8,3 @@
     <title>Index</title>
 </head>
 <body>
-<paper-audio-player src="track.mp3"></paper-audio-player>
