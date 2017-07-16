@@ -9,7 +9,6 @@ include_once "layout/left.php";
 include_once "layout/navbar.php";
 
 ?>
-
 <!-------------------Tracks------------------->
 <div class="clearfix">
     <div class="col-xs-12 col-sm-12 col-md-12 track">
@@ -31,6 +30,13 @@ include_once "layout/navbar.php";
       ?>
     </div>
 </div>
+
+<script type="text/javascript">
+  var myAudio = document.getElementById('my-audio');
+  var bufferedTimeRanges = myAudio.buffered;
+  console.log(myAudio.buffered.length);   // returns 2
+
+</script>
 
 <?php
 

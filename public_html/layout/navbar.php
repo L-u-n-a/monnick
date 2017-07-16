@@ -38,7 +38,7 @@
 <!-------------------Logo------------------->
 <div class="clearfix">
     <div class="col-xs-12 col-sm-12 col-md-12">
-        <img class="logo" src="images/monnick-logo.jpg">
+        <a href="index.php"><img class="logo" src="images/monnick.png"></a>
     </div>
 </div>
 
