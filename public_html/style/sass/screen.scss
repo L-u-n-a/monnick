@@ -34,7 +34,11 @@
   .navbar { font-size: 1.0em; }
   .logo { height: 110px; width: 350px; }
   h4 { font-size: 1.5em; }
-  body { background-image: url("../../images/foto-gear-monnick2.jpg"); }
+  body {
+    background-color: black;
+    background-image: url("../../images/foto-gear-monnick2.jpg");
+    background-repeat: no-repeat;
+  }
 }
 
 
