@@ -31,13 +31,6 @@ include_once "layout/navbar.php";
     </div>
 </div>
 
-<script type="text/javascript">
-  var myAudio = document.getElementById('my-audio');
-  var bufferedTimeRanges = myAudio.buffered;
-  console.log(myAudio.buffered.length);   // returns 2
-
-</script>
-
 <?php
 
 include_once "layout/footer.php";
