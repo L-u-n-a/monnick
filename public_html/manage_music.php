@@ -26,27 +26,33 @@ $name = $type = $embed_link = "";
 $allTrue = true;
 
 if($_SERVER["REQUEST_METHOD"] == "POST") {
-  if(empty($_POST['name'])) {
-    $nameErr = "Name is required";
-    $allTrue = false;
-  } else {
-   $name = test_input($_POST['name']);
+  if(!empty($_POST['id'])) {
+    $id = test_input($_POST['id']);
+    deleteMusic($id);
   }
-  if(empty($_POST['type'])) {
-    $typeErr = "Type required";
-    $allTrue = false;
-  } else {
-    $type = test_input($_POST['type']);
-  }
-  if(empty($_POST['embed_link'])) {
-    $embed_linkErr = "Link required";
-    $allTrue = false;
-  } else {
-    $embed_link = $_POST['embed_link'];
-  }
+  else {
+    if(empty($_POST['name'])) {
+      $nameErr = "Name is required";
+      $allTrue = false;
+    } else {
+     $name = test_input($_POST['name']);
+    }
+    if(empty($_POST['type'])) {
+      $typeErr = "Type required";
+      $allTrue = false;
+    } else {
+      $type = test_input($_POST['type']);
+    }
+    if(empty($_POST['embed_link'])) {
+      $embed_linkErr = "Link required";
+      $allTrue = false;
+    } else {
+      $embed_link = $_POST['embed_link'];
+    }
 
-  if($allTrue) {
-    addMusic($name, $type, $embed_link);
+    if($allTrue) {
+      addMusic($name, $type, $embed_link);
+    }
   }
 }
 
@@ -95,15 +101,18 @@ function test_input($data) {
       </div>
 
       <div class="col-xs-6 col-sm-6 col-md-6 track">
-        <h3>Existing tracks</h3>
-          <table>
+        <h3 class="manage-music-header">Existing tracks</h3>
+        <form action="manage_music.php" method="post">
+          <table class="manage-music-list">
           <?php
             $music = getAllMusic();
 
             foreach($music as $value) {
-              echo '<tr>';
-                echo '<td>' . $value->name . '</td>';
-              echo '</tr>';
+              echo
+              '<tr>
+                <td> '. $value->name .' </td>
+                <td><button class="btn btn-main btn-danger" type="submit" name="id" value="' . $value->id . '">Remove</button></td>
+              </tr>';
             }
           ?>
         </table>

@@ -220,6 +220,28 @@ body {
   }
 }
 
+.manage-music-header {
+  margin-top: 3em;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.manage-music-list {
+  margin-top: 0.8em;
+
+  tr {
+    border-bottom:1pt solid black;
+
+    td {
+
+      button {
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+    }
+  }
+}
+
 .footer {
   text-align: center;
   margin-top: 2em;

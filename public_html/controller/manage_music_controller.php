@@ -15,6 +15,35 @@ function addMusic($name, $type, $embed_link) {
   }
 }
 
+function deleteMusic($id) {
+  $sql = "DELETE FROM music WHERE id =  :id";
+
+  try {
+    $statement = connect()->prepare($sql);
+    $statement->bindParam(':id', $id, PDO::PARAM_INT);
+    $statement->execute();
+  }
+  catch(Exception $e) {
+      echo "manage_music_controller.php error in ---> deleteMusic(). Error message + " . $e->getMessage();
+  }
+}
+
+function getMusicType($type) {
+  $query = "SELECT * FROM music WHERE type = :type;";
+
+  try {
+    $statement = connect()->prepare($query);
+    $statement->bindParam(':type', $type, PDO::PARAM_STR);
+    $statement->execute();
+    $music = $statement->fetchAll(PDO::FETCH_CLASS);
+
+    return $music;
+  }
+  catch(Exception $e) {
+    echo "manage_music_controller.php error in ---> getMusicType(). Error message + " . $e->getMessage();
+  }
+}
+
 
 function getAllMusic() {
   $query = "SELECT * FROM music;";
@@ -28,38 +57,6 @@ function getAllMusic() {
   }
   catch(Exception $e) {
     echo "manage_music_controller.php error in ---> getAllMusic(). Error message + " . $e->getMessage();
-  }
-}
-
-
-function getAllTracks() {
-  $query = "SELECT * FROM music WHERE type = 'track';";
-  $statement = connect()->prepare($query);
-
-  try {
-    $statement->execute();
-    $tracks = $statement->fetchAll(PDO::FETCH_CLASS);
-
-    return $tracks;
-  }
-  catch(Exception $e) {
-    echo "manage_music_controller.php error in ---> getAllTracks(). Error message + " . $e->getMessage();
-  }
-}
-
-
-function getAllSets() {
-  $query = "SELECT * FROM music WHERE type = 'set';";
-  $statement = connect()->prepare($query);
-
-  try {
-    $statement->execute();
-    $sets = $statement->fetchAll(PDO::FETCH_CLASS);
-
-    return $sets;
-  }
-  catch(Exception $e) {
-    echo "manage_music_controller.php error in ---> getAllSets(). Error message + " . $e->getMessage();
   }
 }
 

@@ -15,7 +15,7 @@ include_once "layout/navbar.php";
     <div class="col-xs-12 col-sm-12 col-md-12 track">
         <!--Music-->
         <?php
-          $sets = getAllSets();
+          $sets = getMusicType("set");
 
           foreach($sets as $value) {
             echo
