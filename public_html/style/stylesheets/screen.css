@@ -207,12 +207,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     color: black;
   }
 }
-/* line 51, ../sass/screen.scss */
+@media screen and (min-width: 1990px) {
+  /* line 50, ../sass/screen.scss */
+  .navbar {
+    font-size: 1.1em;
+  }
+}
+/* line 54, ../sass/screen.scss */
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 55, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 .welcome p {
   margin: 1em 1em 1em 1em;
   padding: 0.3em 0.3em 0.3em 0.3em;
@@ -221,18 +227,18 @@ body {
   border-radius: 5px;
 }
 
-/* line 63, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 .admin-bar a {
   color: yellow;
 }
 
-/* line 67, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .navbar {
   text-align: center;
   margin-bottom: 2em;
 }
 
-/* line 72, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .navbar p {
   display: inline;
   padding: 5px;
@@ -247,30 +253,30 @@ body {
   transition: 0.1s;
   font-size: 1.0em;
 }
-/* line 86, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 .navbar p a {
   color: black;
   text-decoration: none;
 }
 
-/* line 92, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 .navbar p:hover {
   color: white;
   background-color: black;
   cursor: pointer;
 }
-/* line 97, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 .navbar p:hover a {
   color: white;
   text-decoration: none;
 }
 
-/* line 103, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 .dropdown {
   position: relative;
   display: inline-block;
 }
-/* line 107, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 .dropdown ol {
   list-style: none;
   padding-left: 0px;
@@ -278,24 +284,24 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
-/* line 114, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .dropdown ol li {
   width: 180px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 119, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 .dropdown ol li:hover {
   color: white;
   background-color: black;
 }
 
-/* line 126, ../sass/screen.scss */
+/* line 129, ../sass/screen.scss */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* line 130, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -304,27 +310,27 @@ body {
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   margin-top: 20px;
 }
-/* line 138, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 .dropdown-content a {
   color: black;
 }
-/* line 142, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 .dropdown-content ol li:hover a {
   color: white;
   text-decoration: none;
 }
 
-/* line 149, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 .choices {
   display: inline;
   text-align: center;
 }
-/* line 153, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 .choices table {
   width: 100%;
   cursor: pointer;
 }
-/* line 157, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 .choices table td {
   text-align: center;
   font-weight: 600;
@@ -332,23 +338,23 @@ body {
   height: 2em;
   border-bottom: 2px solid black;
 }
-/* line 165, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 .choices table td:hover {
   color: white;
   background-color: black;
 }
 
-/* line 172, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 .seperate {
   border-right: 2px solid black;
 }
 
-/* line 176, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 .center {
   background-color: white;
 }
 
-/* line 180, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 .logo {
   display: block;
   margin: auto;
@@ -357,7 +363,7 @@ body {
   font-family: "Source Code Pro", monospace;
 }
 
-/* line 188, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 .track h4 {
   text-align: left;
   margin-top: 0.5em;
@@ -366,7 +372,7 @@ body {
   font-family: inherit;
 }
 
-/* line 196, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 .track-background {
   position: relative;
   height: 180px;
@@ -377,52 +383,52 @@ body {
   margin-bottom: 2.5em;
 }
 
-/* line 206, ../sass/screen.scss */
+/* line 209, ../sass/screen.scss */
 .audio-player {
   position: absolute;
   bottom: 0px;
   width: 100%;
 }
 
-/* line 212, ../sass/screen.scss */
+/* line 215, ../sass/screen.scss */
 .track iframe {
   margin-bottom: 1.5em;
 }
 
-/* line 218, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 .divide img {
   display: block;
   margin: auto;
 }
 
-/* line 226, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .break img {
   display: block;
   margin: auto;
 }
 
-/* line 232, ../sass/screen.scss */
+/* line 235, ../sass/screen.scss */
 .manage-music-header {
   margin-top: 3em;
   font-weight: bold;
   font-size: 1.1em;
 }
 
-/* line 238, ../sass/screen.scss */
+/* line 241, ../sass/screen.scss */
 .manage-music-list {
   margin-top: 0.8em;
 }
-/* line 241, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 .manage-music-list tr {
   border-bottom: 1pt solid black;
 }
-/* line 246, ../sass/screen.scss */
+/* line 249, ../sass/screen.scss */
 .manage-music-list tr td button {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* line 254, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 .footer {
   text-align: center;
   margin-top: 2em;
@@ -430,7 +436,7 @@ body {
   font-family: monospace;
   font-size: 1.1em;
 }
-/* line 261, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 .footer hr {
   width: 50%;
   color: red;
