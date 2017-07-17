@@ -51,8 +51,8 @@ function test_input($data) {
       <!--Manage Contact-->
       <div class="col-xs-8 col-sm-8 col-md-8 track">
         <form action="manage_contact.php" method="post">
-          <textarea name="text" rows="15" cols="60"><?php echo strip_tags(getContactText()->text); ?></textarea>
-          <button class="btn btn-default">Save</button>
+          <textarea class="form-control" name="text" rows="15" cols="60"><?php echo strip_tags(getContactText()->text); ?></textarea>
+          <button class="btn btn-primary submit-margin">Save</button>
         </form>
       </div>
 
