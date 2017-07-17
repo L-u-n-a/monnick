@@ -79,20 +79,20 @@ function test_input($data) {
           <h3 class="manage-music-header">Add new music</h3>
           <form action="controller/upload.php" method="post" enctype="multipart/form-data">
 
-            <input class="form-control" type="text" name="name" placeholder="Track name" />
+            <input class="form-control" type="text" name="name" placeholder="Track name" required/>
 
             <p class="form-item-margin">Upload image</p>
-            <input class="btn btn-default" type="file" name="fileToUpload" id="fileToUpload">
+            <input class="btn btn-default" type="file" name="fileToUpload" id="fileToUpload" required>
 
             <p class="form-item-margin">Upload track/set</p>
-            <input class="btn btn-default" type="file" name="musicToUpload" id="musicToUpload">
+            <input class="btn btn-default" type="file" name="musicToUpload" id="musicToUpload" required>
 
             <div class="form-item-margin">
               <label class="btn btn-default">
-                <input type="radio" name="type" value="track" /> Track
+                <input type="radio" name="type" value="track" required/> Track
               </label>
               <label class="btn btn-default">
-                <input type="radio" name="type" value="set" /> Set
+                <input type="radio" name="type" value="set" required/> Set
               </label>
             </div>
 
