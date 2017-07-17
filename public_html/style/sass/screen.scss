@@ -40,7 +40,7 @@
 @media screen and (min-width: 1024px) {
   .navbar { font-size: 0.9em; }
   .logo { height: 90px; width: 310px; }
-  body { background-image: url("../../images/foto-gear-monnick2.jpg"); }
+  body { background-image: url("../../images/foto-gear-monnick2.jpg"); background-attachment: fixed; }
   .track-background { background-repeat: no-repeat; }
 }
 @media screen and (min-width: 1576px) {

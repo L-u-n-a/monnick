@@ -192,6 +192,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 43, ../sass/screen.scss */
   body {
     background-image: url("../../images/foto-gear-monnick2.jpg");
+    background-attachment: fixed;
   }
 
   /* line 44, ../sass/screen.scss */
