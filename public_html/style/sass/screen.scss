@@ -10,31 +10,41 @@
 @media screen and (max-width: 480px) {
   .logo { height: 70px; width: 200px; }
   .divide { margin-top: 2em; margin-bottom: 3em; }
-  h4 { font-size: 2em; }
+  h4 { display: none; }
   body { background-image: none; }
   .break { margin-top: 5em; margin-bottom: 5em; }
 }
 @media screen and (min-width: 480px) {
-  .navbar { font-size: 2.5em; }
+  .navbar { font-size: 2em; }
   .logo { height: 90px; width: 250px; }
   .divide { margin-top: 2em; margin-bottom: 3em; }
-  h4 { font-size: 2em; }
+  h4 { display: none; }
   body { background-image: none; }
   .break { margin-top: 5em; margin-bottom: 5em; }
 }
 @media screen and (min-width: 640px) {
-  .navbar { font-size: 2.5em; }
+  .navbar { font-size: 2.0em; }
   .logo { height: 120px; width: 400px; }
   .divide { margin-top: 2em; margin-bottom: 3em; }
-  h4 { font-size: 3em; }
   body { background-image: none; }
   .break { margin-top: 5em; margin-bottom: 5em; }
+}
+
+@media screen and (min-width: 950px) {
+  h4 { display: block; color: black;}
+}
+
+@media screen and (min-width: 990px) {
+  h4 { display: none;}
 }
 @media screen and (min-width: 1024px) {
   .navbar { font-size: 1.0em; }
   .logo { height: 110px; width: 350px; }
-  h4 { font-size: 1.5em; }
   body { background-image: url("../../images/foto-gear-monnick2.jpg"); }
+  .track-background { background-repeat: no-repeat; }
+}
+@media screen and (min-width: 1576px) {
+  h4 { display: block; font-size: 1.5em; color: black;}
 }
 
 

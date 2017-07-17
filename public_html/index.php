@@ -17,7 +17,7 @@ include_once "layout/navbar.php";
 
         foreach($music as $value) {
           echo
-          "<div class='track-background' style='background-image: url(images/" . $value->embed_link . ".jpg); background-repeat: no-repeat; background-position: right;'>
+          "<div class='track-background' style='background-image: url(images/" . $value->embed_link . ".jpg); background-repeat: no-repeat; background-position: right'>
             <div class='col-xs-12 col-sm-12 col-md-5'>
               <h4>" . $value->name . "</h4>
             </div>
