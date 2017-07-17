@@ -24,7 +24,7 @@
 }
 @media screen and (min-width: 640px) {
   .navbar { font-size: 1.5em; }
-  .logo { height: 120px; width: 400px; }
+  .logo { height: 90px; width: 250px; }
   .divide { margin-top: 2em; margin-bottom: 3em; }
   body { background-image: none; }
   .break { margin-top: 5em; margin-bottom: 5em; }
@@ -243,12 +243,16 @@ body {
 
 .manage-music-header {
   margin-top: 2em;
+  margin-bottom: 1em;
   font-weight: bold;
   font-size: 1.1em;
 }
 
+.extra-margin-top {
+  margin-top: 3em;
+}
+
 .manage-music-list {
-  margin-top: 0.8em;
 
   tr {
     border-bottom:1pt solid black;

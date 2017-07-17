@@ -75,22 +75,8 @@ function test_input($data) {
         </div>
 
         <!-------------------Add new music------------------->
-        <!-- <div class="col-xs-6 col-sm-6 col-md-6 track">
-          <h3>Add new track</h3>
-          <form action="manage_music.php" method="post">
-            <input type="text" name="name" placeholder="Track name" />
-            <span class="alert-info"><?php echo $nameErr;?></span>
-            <br />
-            <input type="radio" name="type" value="track" /> Track<br />
-            <input type="radio" name="type" value="set" /> Set<br />
-            <span class="alert-info"><?php echo $typeErr;?></span>
-            <br />
-            <textarea name="embed_link" rows="5" cols="50" placeholder="Soundcloud Embed Link"></textarea>
-            <span class="alert-info"><?php echo $embed_linkErr;?></span>
-            <button class="btn btn-main btn-default" type="submit" name="submit" value="submit">Add Track</button>
-          </form>
-        </div> -->
-        <div class="col-xs-6 col-sm-6 col-md-6 track">
+        <div class="col-xs-12 col-sm-12 col-md-6 track">
+          <h3 class="manage-music-header">Add new music</h3>
           <form action="controller/upload.php" method="post" enctype="multipart/form-data">
 
             <input class="form-control" type="text" name="name" placeholder="Track name" />
@@ -101,10 +87,16 @@ function test_input($data) {
             <p class="form-item-margin">Upload track/set</p>
             <input class="btn btn-default" type="file" name="musicToUpload" id="musicToUpload">
 
-            <input type="radio" name="type" value="track" /> Track<br />
-            <input type="radio" name="type" value="set" /> Set<br />
+            <div class="form-item-margin">
+              <label class="btn btn-default">
+                <input type="radio" name="type" value="track" /> Track
+              </label>
+              <label class="btn btn-default">
+                <input type="radio" name="type" value="set" /> Set
+              </label>
+            </div>
 
-            <input class="submit-margin btn btn-default" type="submit" value="Upload" name="submit">
+            <input class="submit-margin btn btn-primary" type="submit" value="Upload" name="submit">
           </form>
         </div>
 
@@ -119,8 +111,8 @@ function test_input($data) {
         <!--Reserved-->
       </div>
 
-      <div class="col-xs-6 col-sm-6 col-md-6 track">
-        <h3 class="manage-music-header">Existing tracks</h3>
+      <div class="col-xs-12 col-sm-12 col-md-6 track">
+        <h3 class="manage-music-header extra-margin-top">Existing tracks</h3>
         <form action="manage_music.php" method="post">
           <table class="manage-music-list">
           <?php

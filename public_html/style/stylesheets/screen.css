@@ -143,8 +143,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
   /* line 27, ../sass/screen.scss */
   .logo {
-    height: 120px;
-    width: 400px;
+    height: 90px;
+    width: 250px;
   }
 
   /* line 28, ../sass/screen.scss */
@@ -422,25 +422,27 @@ body {
 /* line 244, ../sass/screen.scss */
 .manage-music-header {
   margin-top: 2em;
+  margin-bottom: 1em;
   font-weight: bold;
   font-size: 1.1em;
 }
 
-/* line 250, ../sass/screen.scss */
-.manage-music-list {
-  margin-top: 0.8em;
+/* line 251, ../sass/screen.scss */
+.extra-margin-top {
+  margin-top: 3em;
 }
-/* line 253, ../sass/screen.scss */
+
+/* line 257, ../sass/screen.scss */
 .manage-music-list tr {
   border-bottom: 1pt solid black;
 }
-/* line 258, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
 .manage-music-list tr td button {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* line 266, ../sass/screen.scss */
+/* line 270, ../sass/screen.scss */
 .footer {
   text-align: center;
   margin-top: 2em;
@@ -448,7 +450,7 @@ body {
   font-family: monospace;
   font-size: 1.1em;
 }
-/* line 273, ../sass/screen.scss */
+/* line 277, ../sass/screen.scss */
 .footer hr {
   width: 50%;
   color: red;
