@@ -8,6 +8,8 @@ if(!isset($_SESSION['id'])) {
 
 include_once 'controller/manage_music_controller.php';
 
+include_once 'controller/upload.php';
+
 include_once "layout/header.php";
 
 include_once "layout/left.php";
@@ -73,7 +75,7 @@ function test_input($data) {
         </div>
 
         <!-------------------Add new music------------------->
-        <div class="col-xs-6 col-sm-6 col-md-6 track">
+        <!-- <div class="col-xs-6 col-sm-6 col-md-6 track">
           <h3>Add new track</h3>
           <form action="manage_music.php" method="post">
             <input type="text" name="name" placeholder="Track name" />
@@ -86,6 +88,23 @@ function test_input($data) {
             <textarea name="embed_link" rows="5" cols="50" placeholder="Soundcloud Embed Link"></textarea>
             <span class="alert-info"><?php echo $embed_linkErr;?></span>
             <button class="btn btn-main btn-default" type="submit" name="submit" value="submit">Add Track</button>
+          </form>
+        </div> -->
+        <div class="col-xs-6 col-sm-6 col-md-6 track">
+          <form action="controller/upload.php" method="post" enctype="multipart/form-data">
+
+            <input class="form-control" type="text" name="name" placeholder="Track name" />
+
+            <p class="form-item-margin">Upload image</p>
+            <input class="btn btn-default" type="file" name="fileToUpload" id="fileToUpload">
+
+            <p class="form-item-margin">Upload track/set</p>
+            <input class="btn btn-default" type="file" name="musicToUpload" id="musicToUpload">
+
+            <input type="radio" name="type" value="track" /> Track<br />
+            <input type="radio" name="type" value="set" /> Set<br />
+
+            <input class="submit-margin btn btn-default" type="submit" value="Upload" name="submit">
           </form>
         </div>
 

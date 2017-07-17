@@ -408,27 +408,38 @@ body {
 }
 
 /* line 235, ../sass/screen.scss */
+.form-item-margin {
+  margin-top: 0.5em;
+}
+
+/* line 239, ../sass/screen.scss */
+.submit-margin {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* line 244, ../sass/screen.scss */
 .manage-music-header {
-  margin-top: 3em;
+  margin-top: 2em;
   font-weight: bold;
   font-size: 1.1em;
 }
 
-/* line 241, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 .manage-music-list {
   margin-top: 0.8em;
 }
-/* line 244, ../sass/screen.scss */
+/* line 253, ../sass/screen.scss */
 .manage-music-list tr {
   border-bottom: 1pt solid black;
 }
-/* line 249, ../sass/screen.scss */
+/* line 258, ../sass/screen.scss */
 .manage-music-list tr td button {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* line 257, ../sass/screen.scss */
+/* line 266, ../sass/screen.scss */
 .footer {
   text-align: center;
   margin-top: 2em;
@@ -436,7 +447,7 @@ body {
   font-family: monospace;
   font-size: 1.1em;
 }
-/* line 264, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 .footer hr {
   width: 50%;
   color: red;

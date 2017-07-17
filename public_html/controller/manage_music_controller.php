@@ -2,12 +2,12 @@
 
 include_once 'PDO.php';
 
-function addMusic($name, $type, $embed_link) {
-  $query = "INSERT INTO music(name, type, embed_link) VALUES (:name, :type, :embed_link);";
+function addMusic($name, $type, $musicUrl, $imageUrl) {
+  $query = "INSERT INTO music(name, type, musicUrl, imageUrl) VALUES (:name, :type, :musicUrl, :imageUrl);";
   $statement = connect()->prepare($query);
 
   try {
-      $statement->execute(['name' => $name, 'type' => $type, 'embed_link' => $embed_link]);
+      $statement->execute(['name' => $name, 'type' => $type, 'musicUrl' => $musicUrl, 'imageUrl' => $imageUrl]);
       header("Location: ../manage_music.php");
   }
   catch(Exception $e) {
