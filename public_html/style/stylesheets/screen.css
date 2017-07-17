@@ -371,59 +371,58 @@ body {
   position: relative;
   height: 180px;
   width: 100%;
-  border-radius: 5px;
   background: #fff;
   box-shadow: inset -100px 0px 100px -50px #D4D4CC;
   margin-top: 1.5em;
   margin-bottom: 2.5em;
 }
 
-/* line 207, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .audio-player {
   position: absolute;
   bottom: 0px;
   width: 100%;
 }
 
-/* line 213, ../sass/screen.scss */
+/* line 212, ../sass/screen.scss */
 .track iframe {
   margin-bottom: 1.5em;
 }
 
-/* line 219, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 .divide img {
   display: block;
   margin: auto;
 }
 
-/* line 227, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 .break img {
   display: block;
   margin: auto;
 }
 
-/* line 233, ../sass/screen.scss */
+/* line 232, ../sass/screen.scss */
 .manage-music-header {
   margin-top: 3em;
   font-weight: bold;
   font-size: 1.1em;
 }
 
-/* line 239, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 .manage-music-list {
   margin-top: 0.8em;
 }
-/* line 242, ../sass/screen.scss */
+/* line 241, ../sass/screen.scss */
 .manage-music-list tr {
   border-bottom: 1pt solid black;
 }
-/* line 247, ../sass/screen.scss */
+/* line 246, ../sass/screen.scss */
 .manage-music-list tr td button {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* line 255, ../sass/screen.scss */
+/* line 254, ../sass/screen.scss */
 .footer {
   text-align: center;
   margin-top: 2em;
@@ -431,7 +430,7 @@ body {
   font-family: monospace;
   font-size: 1.1em;
 }
-/* line 262, ../sass/screen.scss */
+/* line 261, ../sass/screen.scss */
 .footer hr {
   width: 50%;
   color: red;
