@@ -18,11 +18,11 @@ include_once "layout/navbar.php";
         <!--Reserved-->
       </div>
 
-      <div class="col-xs-8 col-sm-8 col-md-8 track">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-1 track">
         <form action="user.php" method="post">
-            <input name="username" type="text" placeholder="Username" />
-            <input name="password" type="password" placeholder="Password" />
-            <input type="submit" name="login" value="Login" />
+            <input class="form-control" name="username" type="text" placeholder="Username" required />
+            <input class="form-control form-item-margin" name="password" type="password" placeholder="Password" required />
+            <input class="btn btn-primary form-item-margin" type="submit" name="login" value="Login" />
         </form>
       </div>
 
@@ -35,10 +35,25 @@ include_once "layout/navbar.php";
 
 <?php
 if(isset($_POST['login'])) {
+  if(!empty($_POST['username']) && !empty($_POST['password'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
     attemptLogin($username, $password);
+  }
+  else {
+    echo "Please fill in a username and password!";
+    $input = false;
+  }
+}
+
+
+function clean_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+
+  return $data;
 }
 ?>
 
