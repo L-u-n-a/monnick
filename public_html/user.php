@@ -36,8 +36,8 @@ include_once "layout/navbar.php";
 <?php
 if(isset($_POST['login'])) {
   if(!empty($_POST['username']) && !empty($_POST['password'])) {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
+    $username = clean_input($_POST['username']);
+    $password = clean_input($_POST['password']);
 
     attemptLogin($username, $password);
   }
