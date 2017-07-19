@@ -23,8 +23,8 @@
             <p>Music</p>
             <div class="dropdown-content">
                 <ol>
-                    <a href="tracks"><li>Tracks</li></a>
-                    <a href="sets"><li>Sets</li></a>
+                    <a href="tracks.php"><li>Tracks</li></a>
+                    <a href="sets.php"><li>Sets</li></a>
                 </ol>
             </div>
         </div>
